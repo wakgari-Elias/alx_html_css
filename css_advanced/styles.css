@@ -372,5 +372,37 @@ a:hover{
 }
 
 
+/* === QUESTIONS SECTION STYLING === */
+.questions {
+    padding: 50px 0 70px;
+}
+
+.questions__title {
+    text-align: center;
+    color: var(--blue);
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.questions__container {
+    width: 80%;
+    margin-inline: auto;
+    display: grid;
+    gap: 40px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(2, 350px);
+}
+
+.question h3 {
+    color: var(--blue);
+    margin-bottom: 30px;
+}
+
+.question p {
+    color: var(--light-blue);
+    font-size: 14px;
+    line-height: 1.7;
+}
 
 
