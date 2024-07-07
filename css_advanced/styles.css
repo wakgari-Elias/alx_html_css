@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    color: #fff;
+    padding: 10px 20px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover{
+    
+    color: #e81b1b;
+}
+
+.image-containery {
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 850px;
+    position: relative;
+    padding: 20px;
+}
+
+.image-containery::before {
+    content: '';
+    position: absolute;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.main-text {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+.sub-text {
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+    margin-top: 10px;
+    gap: 5px;
+}
+
+.sub-text span {
+    margin: 0 15px;
+}
+
+.search-submit {
+    background: #C271FF;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 190px;
+    height: 50px;
+    border-radius: 6cm;
+}
+
+.search-submit:hover {
+    background: #d35400;
+}
+
+.learn_pros {
+    text-align: center;
+}
+
+.learn {
+    color: #C271FF;
+}
+
+.smile_of_year {
+    position: absolute;
+    left: 5.07%;
+    right: 74.51%;
+    top: 69.35%;
+    bottom: 16.93%;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    text-align: center;
+    line-height: 12px;
+}
+
+.little_smile {
+    position: absolute;
+    left: 25.72%;
+    right: 59.86%;
+    top: 69.35%;
+    bottom: 16.93%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.friend_smile {
+    position: absolute;
+    left: 49.65%;
+    right: 39.93%;
+    top: calc(50% - 27px/2 + 385px);
+    bottom: 16.93%;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.friend_smile img {
+    height: 150px;
+    width: auto;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -195px;
+}
+
+.friend_smile h3, .friend_smile p {
+    margin: 0px -10px;
+    text-align: center;
+    line-height: 12px;
+}
+
+.smiles_winner {
+    position: absolute;
+    height: 27px;
+    left: 70.72%;
+    right: 16.86%;
+    top: 69.35%;
+    bottom: 16.93%;
+    line-height: 12px;
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    text-align: center;
+    color: #FFFFFF;
+}
