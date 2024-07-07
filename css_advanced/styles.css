@@ -438,5 +438,28 @@ a:hover{
     opacity: 0.5;
     font-size: 12px;
 }
+@media (max-width: 800px) {
+    .works_on_smartphone header, 
+    .works_on_smartphone main, 
+    .works_on_smartphone footer {
+        padding: 10px;
+    }
+    body.works_on_smartphone main {
+        display: block;
+    }
+
+    .works_on_smartphone h1 {
+        font-size: 1.8em;
+    }
+
+    .works_on_smartphone h2 {
+        font-size: 1.5em;
+    }
+
+    .works_on_smartphone p {
+        font-size: 1.2em;
+    }
+}
+
 
 
